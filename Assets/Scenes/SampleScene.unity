@@ -131,7 +131,6 @@ GameObject:
   - component: {fileID: 3458262}
   - component: {fileID: 3458261}
   - component: {fileID: 3458260}
-  - component: {fileID: 3458264}
   m_Layer: 0
   m_Name: Cube (18)
   m_TagString: Untagged
@@ -185,7 +184,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1e05a31ff1669254296391c9df9dfa7f, type: 2}
+  - {fileID: 2100000, guid: 8dbffe602831eec4a9c8cd8f6a98e677, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -232,20 +231,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1766466795}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!114 &3458264
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3458259}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 510504c3049ecbe4f90c2261a39671e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DetectorColisionPared
-  materialPorDefecto: {fileID: 2100000, guid: 1e05a31ff1669254296391c9df9dfa7f, type: 2}
-  materialParedTocada: {fileID: 2100000, guid: 8dbffe602831eec4a9c8cd8f6a98e677, type: 2}
 --- !u!1 &19927881
 GameObject:
   m_ObjectHideFlags: 0
@@ -258,7 +243,6 @@ GameObject:
   - component: {fileID: 19927884}
   - component: {fileID: 19927883}
   - component: {fileID: 19927882}
-  - component: {fileID: 19927886}
   m_Layer: 0
   m_Name: Cube (9)
   m_TagString: Untagged
@@ -312,7 +296,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1e05a31ff1669254296391c9df9dfa7f, type: 2}
+  - {fileID: 2100000, guid: 8dbffe602831eec4a9c8cd8f6a98e677, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -359,20 +343,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1766466795}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &19927886
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 19927881}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 510504c3049ecbe4f90c2261a39671e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DetectorColisionPared
-  materialPorDefecto: {fileID: 2100000, guid: 1e05a31ff1669254296391c9df9dfa7f, type: 2}
-  materialParedTocada: {fileID: 2100000, guid: 8dbffe602831eec4a9c8cd8f6a98e677, type: 2}
 --- !u!1 &137155383
 GameObject:
   m_ObjectHideFlags: 0
@@ -498,7 +468,6 @@ GameObject:
   - component: {fileID: 184112081}
   - component: {fileID: 184112080}
   - component: {fileID: 184112079}
-  - component: {fileID: 184112083}
   m_Layer: 0
   m_Name: Cube (28)
   m_TagString: Untagged
@@ -552,7 +521,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1e05a31ff1669254296391c9df9dfa7f, type: 2}
+  - {fileID: 2100000, guid: 8dbffe602831eec4a9c8cd8f6a98e677, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -599,20 +568,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1766466795}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!114 &184112083
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 184112078}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 510504c3049ecbe4f90c2261a39671e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DetectorColisionPared
-  materialPorDefecto: {fileID: 2100000, guid: 1e05a31ff1669254296391c9df9dfa7f, type: 2}
-  materialParedTocada: {fileID: 2100000, guid: 8dbffe602831eec4a9c8cd8f6a98e677, type: 2}
 --- !u!1 &233592629
 GameObject:
   m_ObjectHideFlags: 0
@@ -625,7 +580,6 @@ GameObject:
   - component: {fileID: 233592632}
   - component: {fileID: 233592631}
   - component: {fileID: 233592630}
-  - component: {fileID: 233592634}
   m_Layer: 0
   m_Name: Cube (1)
   m_TagString: Untagged
@@ -679,7 +633,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1e05a31ff1669254296391c9df9dfa7f, type: 2}
+  - {fileID: 2100000, guid: 8dbffe602831eec4a9c8cd8f6a98e677, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -726,20 +680,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1766466795}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &233592634
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 233592629}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 510504c3049ecbe4f90c2261a39671e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DetectorColisionPared
-  materialPorDefecto: {fileID: 2100000, guid: 1e05a31ff1669254296391c9df9dfa7f, type: 2}
-  materialParedTocada: {fileID: 2100000, guid: 8dbffe602831eec4a9c8cd8f6a98e677, type: 2}
 --- !u!1 &309701461
 GameObject:
   m_ObjectHideFlags: 0
@@ -752,7 +692,6 @@ GameObject:
   - component: {fileID: 309701464}
   - component: {fileID: 309701463}
   - component: {fileID: 309701462}
-  - component: {fileID: 309701466}
   m_Layer: 0
   m_Name: Cube (8)
   m_TagString: Untagged
@@ -806,7 +745,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1e05a31ff1669254296391c9df9dfa7f, type: 2}
+  - {fileID: 2100000, guid: 8dbffe602831eec4a9c8cd8f6a98e677, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -853,20 +792,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1766466795}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!114 &309701466
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 309701461}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 510504c3049ecbe4f90c2261a39671e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DetectorColisionPared
-  materialPorDefecto: {fileID: 2100000, guid: 1e05a31ff1669254296391c9df9dfa7f, type: 2}
-  materialParedTocada: {fileID: 2100000, guid: 8dbffe602831eec4a9c8cd8f6a98e677, type: 2}
 --- !u!1 &314436895
 GameObject:
   m_ObjectHideFlags: 0
@@ -879,7 +804,6 @@ GameObject:
   - component: {fileID: 314436898}
   - component: {fileID: 314436897}
   - component: {fileID: 314436896}
-  - component: {fileID: 314436900}
   m_Layer: 0
   m_Name: Cube (21)
   m_TagString: Untagged
@@ -933,7 +857,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1e05a31ff1669254296391c9df9dfa7f, type: 2}
+  - {fileID: 2100000, guid: 8dbffe602831eec4a9c8cd8f6a98e677, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -980,20 +904,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1766466795}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!114 &314436900
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 314436895}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 510504c3049ecbe4f90c2261a39671e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DetectorColisionPared
-  materialPorDefecto: {fileID: 2100000, guid: 1e05a31ff1669254296391c9df9dfa7f, type: 2}
-  materialParedTocada: {fileID: 2100000, guid: 8dbffe602831eec4a9c8cd8f6a98e677, type: 2}
 --- !u!1 &324950025
 GameObject:
   m_ObjectHideFlags: 0
@@ -1006,7 +916,6 @@ GameObject:
   - component: {fileID: 324950028}
   - component: {fileID: 324950027}
   - component: {fileID: 324950026}
-  - component: {fileID: 324950030}
   m_Layer: 0
   m_Name: Cube (16)
   m_TagString: Untagged
@@ -1060,7 +969,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1e05a31ff1669254296391c9df9dfa7f, type: 2}
+  - {fileID: 2100000, guid: 8dbffe602831eec4a9c8cd8f6a98e677, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1107,20 +1016,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1766466795}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!114 &324950030
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 324950025}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 510504c3049ecbe4f90c2261a39671e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DetectorColisionPared
-  materialPorDefecto: {fileID: 2100000, guid: 1e05a31ff1669254296391c9df9dfa7f, type: 2}
-  materialParedTocada: {fileID: 2100000, guid: 8dbffe602831eec4a9c8cd8f6a98e677, type: 2}
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -1365,8 +1260,8 @@ Transform:
   m_GameObject: {fileID: 356866767}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.72, y: 0.01, z: 7.38}
-  m_LocalScale: {x: 0.63650846, y: 0.51386, z: 0.5459762}
+  m_LocalPosition: {x: -6.39, y: 0.01, z: 7.38}
+  m_LocalScale: {x: 0.7003912, y: 0.51386, z: 0.5459762}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1383,7 +1278,6 @@ GameObject:
   - component: {fileID: 405943098}
   - component: {fileID: 405943097}
   - component: {fileID: 405943096}
-  - component: {fileID: 405943100}
   m_Layer: 0
   m_Name: Cube (15)
   m_TagString: Untagged
@@ -1437,7 +1331,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1e05a31ff1669254296391c9df9dfa7f, type: 2}
+  - {fileID: 2100000, guid: 8dbffe602831eec4a9c8cd8f6a98e677, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1484,20 +1378,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1766466795}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!114 &405943100
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 405943095}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 510504c3049ecbe4f90c2261a39671e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DetectorColisionPared
-  materialPorDefecto: {fileID: 2100000, guid: 1e05a31ff1669254296391c9df9dfa7f, type: 2}
-  materialParedTocada: {fileID: 2100000, guid: 8dbffe602831eec4a9c8cd8f6a98e677, type: 2}
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -1637,7 +1517,6 @@ GameObject:
   - component: {fileID: 452750049}
   - component: {fileID: 452750048}
   - component: {fileID: 452750047}
-  - component: {fileID: 452750051}
   m_Layer: 0
   m_Name: Cube (11)
   m_TagString: Untagged
@@ -1691,7 +1570,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1e05a31ff1669254296391c9df9dfa7f, type: 2}
+  - {fileID: 2100000, guid: 8dbffe602831eec4a9c8cd8f6a98e677, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1738,20 +1617,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1766466795}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!114 &452750051
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 452750046}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 510504c3049ecbe4f90c2261a39671e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DetectorColisionPared
-  materialPorDefecto: {fileID: 2100000, guid: 1e05a31ff1669254296391c9df9dfa7f, type: 2}
-  materialParedTocada: {fileID: 2100000, guid: 8dbffe602831eec4a9c8cd8f6a98e677, type: 2}
 --- !u!1 &463159043
 GameObject:
   m_ObjectHideFlags: 0
@@ -1764,7 +1629,6 @@ GameObject:
   - component: {fileID: 463159046}
   - component: {fileID: 463159045}
   - component: {fileID: 463159044}
-  - component: {fileID: 463159048}
   m_Layer: 0
   m_Name: Cube (5)
   m_TagString: Untagged
@@ -1818,7 +1682,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1e05a31ff1669254296391c9df9dfa7f, type: 2}
+  - {fileID: 2100000, guid: 8dbffe602831eec4a9c8cd8f6a98e677, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1865,20 +1729,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1766466795}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &463159048
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 463159043}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 510504c3049ecbe4f90c2261a39671e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DetectorColisionPared
-  materialPorDefecto: {fileID: 2100000, guid: 1e05a31ff1669254296391c9df9dfa7f, type: 2}
-  materialParedTocada: {fileID: 2100000, guid: 8dbffe602831eec4a9c8cd8f6a98e677, type: 2}
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -1940,7 +1790,6 @@ GameObject:
   - component: {fileID: 946322211}
   - component: {fileID: 946322210}
   - component: {fileID: 946322209}
-  - component: {fileID: 946322213}
   m_Layer: 0
   m_Name: Cube (19)
   m_TagString: Untagged
@@ -1994,7 +1843,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1e05a31ff1669254296391c9df9dfa7f, type: 2}
+  - {fileID: 2100000, guid: 8dbffe602831eec4a9c8cd8f6a98e677, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2041,20 +1890,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1766466795}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!114 &946322213
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 946322208}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 510504c3049ecbe4f90c2261a39671e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DetectorColisionPared
-  materialPorDefecto: {fileID: 2100000, guid: 1e05a31ff1669254296391c9df9dfa7f, type: 2}
-  materialParedTocada: {fileID: 2100000, guid: 8dbffe602831eec4a9c8cd8f6a98e677, type: 2}
 --- !u!1 &967406371
 GameObject:
   m_ObjectHideFlags: 0
@@ -2067,7 +1902,6 @@ GameObject:
   - component: {fileID: 967406374}
   - component: {fileID: 967406373}
   - component: {fileID: 967406372}
-  - component: {fileID: 967406376}
   m_Layer: 0
   m_Name: Cube (13)
   m_TagString: Untagged
@@ -2121,7 +1955,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1e05a31ff1669254296391c9df9dfa7f, type: 2}
+  - {fileID: 2100000, guid: 8dbffe602831eec4a9c8cd8f6a98e677, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2168,20 +2002,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1766466795}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &967406376
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 967406371}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 510504c3049ecbe4f90c2261a39671e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DetectorColisionPared
-  materialPorDefecto: {fileID: 2100000, guid: 1e05a31ff1669254296391c9df9dfa7f, type: 2}
-  materialParedTocada: {fileID: 2100000, guid: 8dbffe602831eec4a9c8cd8f6a98e677, type: 2}
 --- !u!1 &998871139
 GameObject:
   m_ObjectHideFlags: 0
@@ -2194,7 +2014,6 @@ GameObject:
   - component: {fileID: 998871142}
   - component: {fileID: 998871141}
   - component: {fileID: 998871140}
-  - component: {fileID: 998871144}
   m_Layer: 0
   m_Name: Cube (3)
   m_TagString: Untagged
@@ -2248,7 +2067,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1e05a31ff1669254296391c9df9dfa7f, type: 2}
+  - {fileID: 2100000, guid: 8dbffe602831eec4a9c8cd8f6a98e677, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2295,20 +2114,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1766466795}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!114 &998871144
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 998871139}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 510504c3049ecbe4f90c2261a39671e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DetectorColisionPared
-  materialPorDefecto: {fileID: 0}
-  materialParedTocada: {fileID: 0}
 --- !u!1 &1041814543
 GameObject:
   m_ObjectHideFlags: 0
@@ -2321,7 +2126,6 @@ GameObject:
   - component: {fileID: 1041814546}
   - component: {fileID: 1041814545}
   - component: {fileID: 1041814544}
-  - component: {fileID: 1041814548}
   m_Layer: 0
   m_Name: Cube (25)
   m_TagString: Untagged
@@ -2375,7 +2179,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1e05a31ff1669254296391c9df9dfa7f, type: 2}
+  - {fileID: 2100000, guid: 8dbffe602831eec4a9c8cd8f6a98e677, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2422,20 +2226,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1766466795}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!114 &1041814548
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1041814543}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 510504c3049ecbe4f90c2261a39671e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DetectorColisionPared
-  materialPorDefecto: {fileID: 2100000, guid: 1e05a31ff1669254296391c9df9dfa7f, type: 2}
-  materialParedTocada: {fileID: 2100000, guid: 8dbffe602831eec4a9c8cd8f6a98e677, type: 2}
 --- !u!1 &1044478728
 GameObject:
   m_ObjectHideFlags: 0
@@ -2448,7 +2238,6 @@ GameObject:
   - component: {fileID: 1044478731}
   - component: {fileID: 1044478730}
   - component: {fileID: 1044478729}
-  - component: {fileID: 1044478733}
   m_Layer: 0
   m_Name: Cube (27)
   m_TagString: Untagged
@@ -2502,7 +2291,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1e05a31ff1669254296391c9df9dfa7f, type: 2}
+  - {fileID: 2100000, guid: 8dbffe602831eec4a9c8cd8f6a98e677, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2549,20 +2338,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1766466795}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!114 &1044478733
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1044478728}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 510504c3049ecbe4f90c2261a39671e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DetectorColisionPared
-  materialPorDefecto: {fileID: 2100000, guid: 1e05a31ff1669254296391c9df9dfa7f, type: 2}
-  materialParedTocada: {fileID: 2100000, guid: 8dbffe602831eec4a9c8cd8f6a98e677, type: 2}
 --- !u!1 &1173654206
 GameObject:
   m_ObjectHideFlags: 0
@@ -2575,7 +2350,6 @@ GameObject:
   - component: {fileID: 1173654209}
   - component: {fileID: 1173654208}
   - component: {fileID: 1173654207}
-  - component: {fileID: 1173654211}
   m_Layer: 0
   m_Name: Cube (7)
   m_TagString: Untagged
@@ -2629,7 +2403,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1e05a31ff1669254296391c9df9dfa7f, type: 2}
+  - {fileID: 2100000, guid: 8dbffe602831eec4a9c8cd8f6a98e677, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2676,20 +2450,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1766466795}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!114 &1173654211
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1173654206}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 510504c3049ecbe4f90c2261a39671e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DetectorColisionPared
-  materialPorDefecto: {fileID: 2100000, guid: 1e05a31ff1669254296391c9df9dfa7f, type: 2}
-  materialParedTocada: {fileID: 2100000, guid: 8dbffe602831eec4a9c8cd8f6a98e677, type: 2}
 --- !u!1 &1294258557
 GameObject:
   m_ObjectHideFlags: 0
@@ -2702,7 +2462,6 @@ GameObject:
   - component: {fileID: 1294258560}
   - component: {fileID: 1294258559}
   - component: {fileID: 1294258558}
-  - component: {fileID: 1294258562}
   m_Layer: 0
   m_Name: Cube (2)
   m_TagString: Untagged
@@ -2756,7 +2515,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1e05a31ff1669254296391c9df9dfa7f, type: 2}
+  - {fileID: 2100000, guid: 8dbffe602831eec4a9c8cd8f6a98e677, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2803,20 +2562,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1766466795}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1294258562
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1294258557}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 510504c3049ecbe4f90c2261a39671e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DetectorColisionPared
-  materialPorDefecto: {fileID: 0}
-  materialParedTocada: {fileID: 0}
 --- !u!1 &1387532153
 GameObject:
   m_ObjectHideFlags: 0
@@ -2829,7 +2574,6 @@ GameObject:
   - component: {fileID: 1387532156}
   - component: {fileID: 1387532155}
   - component: {fileID: 1387532154}
-  - component: {fileID: 1387532158}
   m_Layer: 0
   m_Name: Cube (4)
   m_TagString: Untagged
@@ -2883,7 +2627,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1e05a31ff1669254296391c9df9dfa7f, type: 2}
+  - {fileID: 2100000, guid: 8dbffe602831eec4a9c8cd8f6a98e677, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2930,20 +2674,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1766466795}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!114 &1387532158
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1387532153}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 510504c3049ecbe4f90c2261a39671e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DetectorColisionPared
-  materialPorDefecto: {fileID: 2100000, guid: 1e05a31ff1669254296391c9df9dfa7f, type: 2}
-  materialParedTocada: {fileID: 2100000, guid: 8dbffe602831eec4a9c8cd8f6a98e677, type: 2}
 --- !u!1 &1396013323
 GameObject:
   m_ObjectHideFlags: 0
@@ -2956,7 +2686,6 @@ GameObject:
   - component: {fileID: 1396013326}
   - component: {fileID: 1396013325}
   - component: {fileID: 1396013324}
-  - component: {fileID: 1396013328}
   m_Layer: 0
   m_Name: Cube (10)
   m_TagString: Untagged
@@ -3010,7 +2739,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1e05a31ff1669254296391c9df9dfa7f, type: 2}
+  - {fileID: 2100000, guid: 8dbffe602831eec4a9c8cd8f6a98e677, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3057,20 +2786,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1766466795}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1396013328
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1396013323}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 510504c3049ecbe4f90c2261a39671e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DetectorColisionPared
-  materialPorDefecto: {fileID: 2100000, guid: 1e05a31ff1669254296391c9df9dfa7f, type: 2}
-  materialParedTocada: {fileID: 2100000, guid: 8dbffe602831eec4a9c8cd8f6a98e677, type: 2}
 --- !u!1 &1453362433
 GameObject:
   m_ObjectHideFlags: 0
@@ -3083,7 +2798,6 @@ GameObject:
   - component: {fileID: 1453362436}
   - component: {fileID: 1453362435}
   - component: {fileID: 1453362434}
-  - component: {fileID: 1453362438}
   m_Layer: 0
   m_Name: Cube (24)
   m_TagString: Untagged
@@ -3137,7 +2851,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1e05a31ff1669254296391c9df9dfa7f, type: 2}
+  - {fileID: 2100000, guid: 8dbffe602831eec4a9c8cd8f6a98e677, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3184,20 +2898,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1766466795}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!114 &1453362438
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1453362433}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 510504c3049ecbe4f90c2261a39671e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DetectorColisionPared
-  materialPorDefecto: {fileID: 2100000, guid: 1e05a31ff1669254296391c9df9dfa7f, type: 2}
-  materialParedTocada: {fileID: 2100000, guid: 8dbffe602831eec4a9c8cd8f6a98e677, type: 2}
 --- !u!1 &1614281755
 GameObject:
   m_ObjectHideFlags: 0
@@ -3210,7 +2910,6 @@ GameObject:
   - component: {fileID: 1614281758}
   - component: {fileID: 1614281757}
   - component: {fileID: 1614281756}
-  - component: {fileID: 1614281760}
   m_Layer: 0
   m_Name: Cube (14)
   m_TagString: Untagged
@@ -3264,7 +2963,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1e05a31ff1669254296391c9df9dfa7f, type: 2}
+  - {fileID: 2100000, guid: 8dbffe602831eec4a9c8cd8f6a98e677, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3311,20 +3010,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1766466795}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!114 &1614281760
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1614281755}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 510504c3049ecbe4f90c2261a39671e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DetectorColisionPared
-  materialPorDefecto: {fileID: 2100000, guid: 1e05a31ff1669254296391c9df9dfa7f, type: 2}
-  materialParedTocada: {fileID: 2100000, guid: 8dbffe602831eec4a9c8cd8f6a98e677, type: 2}
 --- !u!1 &1766466794
 GameObject:
   m_ObjectHideFlags: 0
@@ -3334,7 +3019,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1766466795}
-  - component: {fileID: 1766466796}
   m_Layer: 0
   m_Name: Paredes
   m_TagString: Untagged
@@ -3384,20 +3068,6 @@ Transform:
   - {fileID: 1396013327}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1766466796
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1766466794}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 510504c3049ecbe4f90c2261a39671e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Paredes
-  materialPorDefecto: {fileID: 2100000, guid: 1e05a31ff1669254296391c9df9dfa7f, type: 2}
-  materialParedTocada: {fileID: 2100000, guid: 8dbffe602831eec4a9c8cd8f6a98e677, type: 2}
 --- !u!1 &1786641387
 GameObject:
   m_ObjectHideFlags: 0
@@ -3410,7 +3080,6 @@ GameObject:
   - component: {fileID: 1786641390}
   - component: {fileID: 1786641389}
   - component: {fileID: 1786641388}
-  - component: {fileID: 1786641392}
   m_Layer: 0
   m_Name: Cube (20)
   m_TagString: Untagged
@@ -3464,7 +3133,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1e05a31ff1669254296391c9df9dfa7f, type: 2}
+  - {fileID: 2100000, guid: 8dbffe602831eec4a9c8cd8f6a98e677, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3511,20 +3180,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1766466795}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!114 &1786641392
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1786641387}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 510504c3049ecbe4f90c2261a39671e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DetectorColisionPared
-  materialPorDefecto: {fileID: 2100000, guid: 1e05a31ff1669254296391c9df9dfa7f, type: 2}
-  materialParedTocada: {fileID: 2100000, guid: 8dbffe602831eec4a9c8cd8f6a98e677, type: 2}
 --- !u!1 &1890889037
 GameObject:
   m_ObjectHideFlags: 0
@@ -3537,7 +3192,6 @@ GameObject:
   - component: {fileID: 1890889040}
   - component: {fileID: 1890889039}
   - component: {fileID: 1890889038}
-  - component: {fileID: 1890889042}
   m_Layer: 0
   m_Name: Cube (26)
   m_TagString: Untagged
@@ -3591,7 +3245,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1e05a31ff1669254296391c9df9dfa7f, type: 2}
+  - {fileID: 2100000, guid: 8dbffe602831eec4a9c8cd8f6a98e677, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3638,20 +3292,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1766466795}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!114 &1890889042
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1890889037}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 510504c3049ecbe4f90c2261a39671e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DetectorColisionPared
-  materialPorDefecto: {fileID: 0}
-  materialParedTocada: {fileID: 0}
 --- !u!1 &1919984531
 GameObject:
   m_ObjectHideFlags: 0
@@ -3758,7 +3398,7 @@ Transform:
   m_GameObject: {fileID: 1919984531}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.68, y: 0, z: 6.8908997}
+  m_LocalPosition: {x: 1.9203601, y: 0, z: 6.8908997}
   m_LocalScale: {x: 0.099233, y: 1, z: 1.2179873}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3776,7 +3416,6 @@ GameObject:
   - component: {fileID: 2053418585}
   - component: {fileID: 2053418584}
   - component: {fileID: 2053418583}
-  - component: {fileID: 2053418587}
   m_Layer: 0
   m_Name: Cube (6)
   m_TagString: Untagged
@@ -3830,7 +3469,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1e05a31ff1669254296391c9df9dfa7f, type: 2}
+  - {fileID: 2100000, guid: 8dbffe602831eec4a9c8cd8f6a98e677, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3877,20 +3516,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1766466795}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2053418587
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2053418582}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 510504c3049ecbe4f90c2261a39671e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DetectorColisionPared
-  materialPorDefecto: {fileID: 2100000, guid: 1e05a31ff1669254296391c9df9dfa7f, type: 2}
-  materialParedTocada: {fileID: 2100000, guid: 8dbffe602831eec4a9c8cd8f6a98e677, type: 2}
 --- !u!1 &2056190292
 GameObject:
   m_ObjectHideFlags: 0
@@ -3903,7 +3528,6 @@ GameObject:
   - component: {fileID: 2056190295}
   - component: {fileID: 2056190294}
   - component: {fileID: 2056190293}
-  - component: {fileID: 2056190297}
   m_Layer: 0
   m_Name: Cube (22)
   m_TagString: Untagged
@@ -3957,7 +3581,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1e05a31ff1669254296391c9df9dfa7f, type: 2}
+  - {fileID: 2100000, guid: 8dbffe602831eec4a9c8cd8f6a98e677, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4004,20 +3628,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1766466795}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!114 &2056190297
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2056190292}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 510504c3049ecbe4f90c2261a39671e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DetectorColisionPared
-  materialPorDefecto: {fileID: 2100000, guid: 1e05a31ff1669254296391c9df9dfa7f, type: 2}
-  materialParedTocada: {fileID: 2100000, guid: 8dbffe602831eec4a9c8cd8f6a98e677, type: 2}
 --- !u!1 &2098992351
 GameObject:
   m_ObjectHideFlags: 0
@@ -4030,7 +3640,6 @@ GameObject:
   - component: {fileID: 2098992354}
   - component: {fileID: 2098992353}
   - component: {fileID: 2098992352}
-  - component: {fileID: 2098992356}
   m_Layer: 0
   m_Name: Cube (17)
   m_TagString: Untagged
@@ -4084,7 +3693,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1e05a31ff1669254296391c9df9dfa7f, type: 2}
+  - {fileID: 2100000, guid: 8dbffe602831eec4a9c8cd8f6a98e677, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4131,20 +3740,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1766466795}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!114 &2098992356
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2098992351}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 510504c3049ecbe4f90c2261a39671e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DetectorColisionPared
-  materialPorDefecto: {fileID: 2100000, guid: 1e05a31ff1669254296391c9df9dfa7f, type: 2}
-  materialParedTocada: {fileID: 2100000, guid: 8dbffe602831eec4a9c8cd8f6a98e677, type: 2}
 --- !u!1 &2136034870
 GameObject:
   m_ObjectHideFlags: 0
@@ -4162,7 +3757,7 @@ GameObject:
   - component: {fileID: 2136034877}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4311,7 +3906,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff7579864dc362645a30cdaa7fde6b47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MovimientoJugador
-  velocidad: 5
+  velocidad: 2
   movimientoEjeX: 0
   movimientoEjeY: 0
   movimientoEjeZ: 0
